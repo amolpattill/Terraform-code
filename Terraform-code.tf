@@ -49,7 +49,7 @@ resource "aws_instance" "myin" {
    security_groups = ["launch-wizard-2"]
 
   tags = {
-    Name = "HelloWorld"
+    Name = "myos"
   }
 }
 
